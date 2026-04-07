@@ -6,10 +6,12 @@ Disciplina: Aplicação de Banco de Dados
 
 Aluno: Herlei C. Pimentel da Silva
 
-Sobre 
+Sobre
+
 Esse repositório contém a implementação de um sistema de biblioteca. Ele foca no mapeamento objeto-relacional (ORM) utilizando a API Java JPA e o padrão DAO (Data Access Object).
 
 Estrutura 
+
 Esse código foi estruturado visando o desacoplamento e a manutenibilidade do sistema. 
 
 **'model'**: Contém as entidades mapeadas com anotações JPA (@Entity), respeitando as associações e cardinalidades do diagrama de classes.
