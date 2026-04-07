@@ -1,2 +1,19 @@
 # ATIVIDADE-1-AVALIA-O---SISTEMA-DE-BIBLIOTECA
-Nome do Aluno: Herlei Cauã Pimentel da Silva
+
+Sistema de Biblioteca - 1ª Avaliação
+Disciplina: Aplicação de Banco de Dados
+Aluno: 
+
+Sobre 
+Esse repositório contém a implementação de um sistema de biblioteca. Ele foca no mapeamento objeto-relacional (ORM) utilizando a API Java JPA e o padrão DAO (Data Access Object).
+
+Estrutura 
+Esse código foi estruturado visando o desacoplamento e a manutenibilidade do sistema. 
+
+**'model'**: Contém as entidades mapeadas com anotações JPA (@Entity), respeitando as associações e cardinalidades do diagrama de classes.
+
+**'dao'**: Concentra a lógica de persistência. A classe EmprestimoDAO realiza as operações de CRUD e consultas customizadas via JPQL.
+
+**'util'**: Provê a conexão com o banco de dados através da configuração do EntityManager.
+
+**'test'**: Conjunto de testes unitários que validam o ciclo de vida dos objetos e a integridade das operações no banco de dados.
